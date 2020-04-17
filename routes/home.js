@@ -5,3 +5,5 @@ var data = require('./data');
 router.get('/', function (req, res, next) {
   res.send(data.home);
 });
+
+module.exports = router;
