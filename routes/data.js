@@ -78,51 +78,48 @@ var data = {
         A: '/setting 2번 대답',
       },
     ],
-    qna: {
-      manage: [
-        {
-          id: 'hello1',
-          name: '테스트',
-          reqTime: '2020-04-20',
-          phoneNumber: '01012345678',
-          question: '프로필 사진을 바꾸고 싶어요.',
-          state: '답변 대기중',
-        },
-      ],
-      sign: [
-        {
-          id: 'hello2',
-          name: '테스트',
-          reqTime: '2020-04-20',
-          phoneNumber: '01012345678',
-          menu: 'sign',
-          question: '회원가입이 안 돼요.',
-          state: '답변 완료',
-        },
-      ],
-      order: [
-        {
-          id: 'hello3',
-          name: '테스트',
-          reqTime: '2020-04-20',
-          phoneNumber: '01012345678',
-          menu: 'order',
-          question: '주문번호 #123 환불 처리가 늦어지네요.',
-          state: '답변 대기중',
-        },
-      ],
-      setting: [
-        {
-          id: 'hello4',
-          name: '테스트',
-          reqTime: '2020-04-20',
-          phoneNumber: '01012345678',
-          menu: 'setting',
-          question: '비밀번호를 잊어버렸어요.',
-          state: '답변 완료',
-        },
-      ],
-    },
+  },
+  qna: {
+    manage: [
+      {
+        id: 'hello1',
+        name: '테스트',
+        reqTime: '2020-04-20',
+        phoneNumber: '01012345678',
+        question: '프로필 사진을 바꾸고 싶어요.',
+        state: '답변 대기중',
+      },
+    ],
+    sign: [
+      {
+        id: 'hello2',
+        name: '테스트',
+        reqTime: '2020-04-20',
+        phoneNumber: '01012345678',
+        question: '회원가입이 안 돼요.',
+        state: '답변 완료',
+      },
+    ],
+    order: [
+      {
+        id: 'hello3',
+        name: '테스트',
+        reqTime: '2020-04-20',
+        phoneNumber: '01012345678',
+        question: '주문번호 #123 환불 처리가 늦어지네요.',
+        state: '답변 대기중',
+      },
+    ],
+    setting: [
+      {
+        id: 'hello4',
+        name: '테스트',
+        reqTime: '2020-04-20',
+        phoneNumber: '01012345678',
+        question: '비밀번호를 잊어버렸어요.',
+        state: '답변 완료',
+      },
+    ],
   },
   home: {
     serviceName: 'TEST',
