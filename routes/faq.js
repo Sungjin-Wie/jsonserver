@@ -11,7 +11,7 @@ router.get('/manage', function (req, res, next) {
 });
 
 router.get('/managesign', function (req, res, next) {
-  res.send(data.faq.managesign);
+  res.send(data.faq.sign);
 });
 
 router.get('/order', function (req, res, next) {

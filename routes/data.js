@@ -36,7 +36,7 @@ var data = {
         A: '/manage 8번 대답',
       },
     ],
-    managesign: [
+    sign: [
       {
         Q: '/manage/sign 1번 질문',
         A: '/manage/sign 1번 대답',
